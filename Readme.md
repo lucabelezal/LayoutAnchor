@@ -7,9 +7,6 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/LayoutAnchor.svg)](https://cocoapods.org/pods/LayoutAnchor)
 
-[![Travis](https://img.shields.io/travis/viniciusfranca/LayoutAnchor/master.svg)](https://travis-ci.org/viniciusfranca/LayoutAnchor/branches)
-[![FrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/FrameworkTemplate)
-
 This is an alternative to replacing NSLayoutAnchor with an interface similar to SnapKit
 
 - [Requirements](#requirements)
@@ -19,8 +16,8 @@ This is an alternative to replacing NSLayoutAnchor with an interface similar to 
 
 ## Requirements
 
-- iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
-- Xcode 9.0+
+- iOS 9.0+
+- Xcode 9.4+
 
 ## Installation
 
@@ -38,7 +35,7 @@ To integrate LayoutAnchor into your Xcode project using CocoaPods, specify it in
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 
 pod 'LayoutAnchor', '~> 0.0.1'
@@ -154,7 +151,7 @@ Issues and pull requests are welcome!
 
 ## Author
 
-Vinicius França [@rahulkatariya91](https://twitter.com/rahulkatariya91)
+Vinicius França
 
 ## License
 
