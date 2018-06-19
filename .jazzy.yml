@@ -1,0 +1,8 @@
+author: Vinicius França
+author_url: https://twitter.com/rahulkatariya91
+github_url: https://github.com/viniciusfranca/LayoutAnchor
+root_url: https://viniciusfranca.github.io/LayoutAnchor/
+module: LayoutAnchor
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'LayoutAnchor.xcworkspace', -scheme, 'LayoutAnchor-iOS']
