@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'This is an alternative to replacing NSLayoutAnchor with an interface similar to SnapKit'
  s.homepage = 'https://github.com/viniciusfranca/LayoutAnchor'
- s.social_media_url = 'https://twitter.com/rahulkatariya91'
+ s.social_media_url = ''
  s.authors = { "Vinicius França" => "viniciusdasilva10@hotmail.com" }
  s.source = { :git => "https://github.com/viniciusfranca/LayoutAnchor.git", :tag => "v"+s.version.to_s }
- s.platforms = { :ios => "8.0", :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
+ s.platforms = { :ios => "9.0" }
  s.requires_arc = true
 
  s.default_subspec = "Core"
